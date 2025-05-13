@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responive desing</title>
+</head>
+<style>
+    .html{
+        font-size: 40px;
+    }
+    .container{
+        font-size: 10px;
+        border: 2px solid black;
+    }
+    h1{
+        /* color: red; */
+        text-align: center;
+    }
+    h1#first{
+
+font-size: 3em;
+padding: 3em;
+}
+    h1#secon{
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    h1#thrid{
+        font-size: 1em;
+        padding: 1em;
+    }
+    @media screen and (max-width: 600px) {
+        h1#first{
+            font-size: 2em;
+            padding: 2em;
+        }
+        h1#secon{
+            font-size: 1.5em;
+            padding: 1.5em;
+        }
+        h1#thrid{
+            font-size: 1em;
+            padding: 1em;
+        }
+    }
+</style>
+<body>
+    
+    <div class="container">
+<h1 id="first">this a first heading</h1>
+<h1 id="secon">this is a second heading</h1>
+<h1 id="thrid">this is a thrid heaading</h1>
+    </div>
+</body>
+</html>
