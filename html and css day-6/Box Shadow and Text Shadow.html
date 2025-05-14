@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+</head>
+<style>
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    border: black 2px solid;
+}
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #6f83dc;
+    border-radius: 10px;
+    box-shadow:  7px 4px 8px rgba(235, 11, 52, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border: #6f83dc 2px solid;
+    border-radius: 30px;
+}
+.card h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(246, 6, 6, 0.5);
+    margin-bottom: 10px;
+
+}
+</style>
+   
+<body>
+    <div class="container">
+<div class="card" id="card-1">
+    <h2>
+        Box Shadow
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore magni aliquid non rem! Dolores doloremque sunt nostrum dolor architecto. Qui quas rem id tempora veniam inventore. Quod, assumenda velit.</p>
+
+</div>
+<div class="card" id="card-2">
+    <h2>
+        Text Shadow
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore magni aliquid non rem! Dolores doloremque sunt nostrum dolor architecto. Qui quas rem id tempora veniam inventore. Quod, assumenda velit.</p>
+</div>
+<div class="card" id="card-3">
+    <h2>
+        Box Shadow and Text Shadow
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore magni aliquid non rem! Dolores doloremque sunt nostrum dolor architecto. Qui quas rem id tempora veniam inventore. Quod, assumenda velit.</p>
+</div>
+    </div>
+</body>
+</html>

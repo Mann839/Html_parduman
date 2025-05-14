@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo Selectors </title>
+</head>
+<style>
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid white; */
+    
+
+}
+header ::before{
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJsdXUlMjB3aGl0ZXxlbnwwfHx8fDE2OTI5NTY1NzE&ixlib=rb-4.0.3&q=80&w=1080') no-repeat center center/cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+
+}
+
+    .navigation{
+        display: flex;
+    color: white;
+    /* justify-content: center; */
+    }
+    li{
+        list-style: none;
+        padding: 34px 24px;
+        text-align: center;
+
+    }
+  section{
+    /* border: 2px solid white; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+width: 80%;
+margin: 0 auto;
+}
+.item{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+p{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;   
+    border-radius: 5px;
+    left: 0px;
+    margin: 17px auto;
+    display: block;
+    font-size: 16px;
+}
+.search{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;   
+    border-radius: 5px;
+    left: 0;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+}
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item"><a href="">Home</a></li>
+                <li class="item"><a href="">About</a></li>
+                <li class="item"><a href="">Services</a></li>
+                <li class="item"><a href="">Contact</a></li>
+            </ul>
+
+            <input type="text" placeholder="Search..." class="search">
+            <button class="btn">Search</button>
+        </nav>
+        <section>
+            <h3> Welcome to Creating Animations & Keyframes </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia voluptatibus eaque aspernatur voluptate nihil est impedit iure, cupiditate eius, aperiam nemo modi. Quas dolorem repudiandae atque voluptatum accusamus aut.
+            Odio illum nemo veritatis fuga aspernatur inventore adipisci quas quaerat optio iste eum dolores unde doloremque amet deleniti, recusandae consectetur dolorem a, eius impedit neque sequi quam similique! Qui, quos?
+            Voluptate culpa eligendi eos fugiat distinctio quos iste magni dicta id voluptatibus repellat sit, accusamus quo nostrum quasi similique earum illum veritatis possimus. Illum eligendi magnam quia itaque aut ut.
+            Atque dolorem ducimus distinctio officia provident, saepe, fuga, voluptatum quis earum aspernatur accusamus maiores quidem illum molestiae deleniti! Molestias eligendi, blanditiis nam eos esse nihil. Exercitationem magnam labore tenetur totam!
+            Quam, commodi. Illo qui sunt expedita a recusandae? Consequuntur ex aperiam aliquid neque? Consequatur odio expedita eius molestias ut eaque? Laboriosam velit quod repellendus unde. Ut quae distinctio ullam amet.
+            Quisquam est culpa voluptate praesentium impedit at deserunt? Eligendi, animi ipsa illum non possimus quaerat debitis eos alias quod unde. Hic nemo blanditiis tempora voluptates accusamus vero atque autem eaque!
+            Asperiores eaque explicabo delectus officiis vel tempore ab dignissimos nobis cupiditate, modi temporibus sunt doloremque quasi rem minus, ut aliquam assumenda eveniet. Dicta nihil iste earum voluptates quas debitis expedita?
+            Perspiciatis aspernatur velit unde odit repellendus alias necessitatibus assumenda natus consequatur nam voluptatum cumque quae quod eum corrupti aliquam ea doloribus quaerat, eveniet enim nobis ut quo repudiandae consectetur. Sint?
+          
+            
+    </p>
+        </section>
+    </header>
+</body>
+</html>
