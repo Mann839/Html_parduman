@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions is css</title>
+</head>
+<style>
+    body {
+        background-color: #141414;
+        /* font-family: Arial, sans-serif; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* height: 100vh; */
+    }
+
+    /* .box {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        transition: transform 0.5s ease, background-color 0.5s ease;
+    }
+
+    .box:hover {
+        transform: scale(1.2);
+        background-color: #e74c3c;
+    } */
+#box {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: background-color, transform;
+    transition-duration: 3s;*/
+
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 1s;  */
+    /* transition:  background-color 2s ease-in-out, transform 2s ease-in-out; */
+    transition: all 2s ease-in-out;
+}
+#box:hover {
+    background-color: blue;
+    /* transform: rotate(45deg); */
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
+    border: 5px solid #fff;
+    font-size: 50px;
+
+}
+</style>
+<body>
+    <h3>this is a Transitions in CSS</h3>
+    <div class="container">
+    <div id="box">
+        this is a box
+    </div>
+    </div>
+</body>
+</html>
