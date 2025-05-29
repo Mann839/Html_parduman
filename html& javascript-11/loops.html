@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> for, while, forEach, Do While Loops</title>
+</head>
+<body>
+    <div class="container">
+        THis is about Loops
+    </div>
+</body>
+<script>
+     console.log(" This is loops");
+    //  let i = 0;
+    //  for(i=0; i<3; i++){
+    //     console.log(i);
+    //  }
+
+    let friends = [ "Ravi","Pradhan","Nitin","Mohan"];
+    // for (let index = 0; index < friends.legth; index++){
+    //     console.log("Hello friend ", + friends[index]);
+
+    // }
+
+    // friends.forEach(function f(element) {
+    //     console.log("Hello friends ," + element + "to modern Javascript");
+    // });
+
+    // for(element of friends){
+    //     console.log("Hello friends ,"+ element + "to modern Javascript");
+
+    // }
+
+    let employees = {
+        name: "parduman",
+        salary: 2,
+        channel: "gracegrip"
+
+    }
+    for(key in employees){
+        console.log('The ${key} of employee is ${employee[key]}');
+    }
+
+
+    //while loop is js 
+    let i =0;
+    while(i<4){
+        console.log('i is less than 4');
+        i++;
+    }
+
+//do while loop js 
+    let j =34;
+    do{
+        console.log('${j} is less than 4');
+        j++;
+    }
+        while(j<4);
+
+
+    
+</script>
+</html>
