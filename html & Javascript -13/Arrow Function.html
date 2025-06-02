@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function in Javascript</title>
+</head>
+<body>
+    <div class="container">
+        This is a arrow function in Javascript
+    </div>
+    <script>
+
+//Arrow function
+        // greet = ()=> {
+        //     console.log("Good morning");
+        // }
+
+        greet = ()=> console.log("Good morning");
+        
+
+// let Sum2 = (a,b)=>{
+// return a+b;
+// };
+
+let Sum2 = (a,b)=> a+b;
+let half = a => a/2;
+
+        // function greet(){
+        //     console.log("Good morning");
+        // }
+        greet();
+
+        setTimeout(() => {
+            console.log("this is arrow function");
+        }, 3000);
+
+        let obj1={
+            greeting: 'Good morning',
+            names: ['pradhan','mogli','ravi','nitin'],
+            speak(){
+                this.names.forEach((student)=>{
+                    console.log(this.greeting + " kukdoo koo "+ student);
+
+                });
+            }
+        }
+        obj1.speak();
+    </script>
+</body>
+</html>
