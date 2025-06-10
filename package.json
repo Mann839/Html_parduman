@@ -1,0 +1,26 @@
+{
+  "name": "html_parduman",
+  "version": "1.0.0",
+  "description": "This is the best program javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mann839/Html_parduman.git"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mann839/Html_parduman/issues"
+  },
+  "homepage": "https://github.com/Mann839/Html_parduman#readme",
+  "dependencies": {
+    "nodemon": "^3.1.10",
+    "slugify": "^1.6.6"
+  }
+}

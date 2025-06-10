@@ -1,0 +1,1 @@
+console.log('javascript day - 16');
