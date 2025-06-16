@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <!-- <title>index</title> -->
+    <title>#{title}</title>
 </head>
+style
+     include ../static/style.css
 <body>
-    <h1>this a Pug</h1>
-    <p>this is a demo are pug which make pug easy to use</p>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/service">Service</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>The gym membership form</h2>
+        <!-- <p>
+           | #{content} 
+           | this is a demo are pug which make pug easy to use
+        </p> -->
+
+        <form action ='/' id ='content'>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you..."></textarea>
+            <button class = 'btn'>submit</button>
+        </form>
+    </div>
 </body>
 </html>
