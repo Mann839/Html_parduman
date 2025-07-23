@@ -1,15 +1,14 @@
 {
   "name": "dance-website--18",
   "version": "1.0.0",
-  "description": "This is a my dance academy in website",
+  "description": "This is a popular dance website academy",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "\"abc\"",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
-    "pug": "^3.0.3"
+    "express": "^5.1.0"
   }
 }
