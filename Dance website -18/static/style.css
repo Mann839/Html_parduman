@@ -1,5 +1,146 @@
-#navbar ul{
-display: flex;
-flex-direction: row;
-justify-content: center;
-};
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    
+    background-color:rgb(133, 208, 233);
+    padding: 13px 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+}
+#navbar ul{  
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    list-style-type: none;
+    align-items: center;
+
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}  
+#logo img{
+   height: 40px;
+}
+  
+#navbar li {
+list-style: none;
+
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 25px 37px;
+    margin: 16px;
+    color: rgb(11, 11, 11);
+
+}
+
+#navbar li a:hover{
+color: aliceblue;
+
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 45px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/pexels-pixabay-209948.jpg");
+    height: 400px;
+    background-color:lightblue;
+
+}
+#introSection dev.small{
+    font-size: 32px;
+}
+
+#missionSection {
+height: 300px;  
+width: 80%;
+margin: auto;
+
+
+}
+#missionSection h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 18px 11px;
+    height: 210px;  
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.card-img{
+   height: 100px;
+   padding:0 14px;
+   margin:5px 10px;
+
+}
+.card-img img{
+height: inherit;
+}
+
+.card-content{
+height: 0px;
+padding: 0 10px;
+}
+.card-content p{
+    font-size: 17px; 
+}
+#sponsorsSection{
+height: 300px;
+background-color: lightblue;
+
+}
+#sponsorsSection h2{
+
+text-align: center;
+padding: 10px;
+font-size: 30px;
+}
+
+
+#sponsors {
+    height: 31px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage {
+    height: 41%;
+    margin: 45px;  
+}
+#footer{
+    display: flex; 
+    color: white;
+    background-color:rgb(12, 12, 12);
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+   
+}
