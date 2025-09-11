@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Mann839/Html_parduman#readme",
   "dependencies": {
     "express": "^5.1.0",
+    "mongoose": "^8.18.1",
     "nodemon": "^3.1.10",
     "pug": "^3.0.3",
     "slugify": "^1.6.6"
